@@ -1,0 +1,22 @@
+{
+  "$schema": "hr-screening-rubric-v1",
+  "role": "R&D Ứng dụng AI (Junior/Fresher)",
+  "total_points": 100,
+  "training_only": true,
+  "criteria": [
+    {"id": "ai_tool_experience", "name": "Kinh nghiệm sử dụng/nghiên cứu công cụ AI", "max_points": 20, "scoring_rule": ">=6 tháng liên tục: 20; >=3 tháng: 14; có dùng nhưng <3 tháng: 8; không có: 0"},
+    {"id": "prompt_engineering", "name": "Kỹ năng xây dựng và tối ưu prompt", "max_points": 15, "scoring_rule": "Có evidence cụ thể (hệ thống prompt, custom GPT...): 15; có đề cập nhưng mơ hồ: 8; không có: 0"},
+    {"id": "testing_validation", "name": "Kiểm thử, đo lường, tối ưu giải pháp AI", "max_points": 15, "scoring_rule": "Có evidence đo lường/so sánh kết quả cụ thể: 15; có đề cập nhưng không rõ số liệu: 8; không có: 0"},
+    {"id": "curiosity_self_learning", "name": "Tò mò, chủ động khám phá công nghệ mới", "max_points": 15, "scoring_rule": ">=2 evidence (side project, cộng đồng AI, thử nghiệm tool mới): 15; 1 evidence: 8; không có: 0"},
+    {"id": "communication_knowledge_sharing", "name": "Giao tiếp và chia sẻ kiến thức", "max_points": 15, "scoring_rule": "Có evidence đào tạo/viết hướng dẫn/thuyết trình: 15; giao tiếp cơ bản không có evidence chia sẻ: 8; không có: 0"},
+    {"id": "structured_thinking", "name": "Tư duy hệ thống hoá, tổ chức thông tin", "max_points": 10, "scoring_rule": "Có evidence rõ (report, framework, note có cấu trúc): 10; mơ hồ: 5; không có: 0"},
+    {"id": "english_reading", "name": "Đọc hiểu tài liệu tiếng Anh", "max_points": 5, "scoring_rule": "Có evidence rõ (chứng chỉ/kinh nghiệm đọc tài liệu chuyên ngành): 5; có nhưng không rõ: 3; không có: 0"},
+    {"id": "tools_and_cv_quality", "name": "Công cụ kỹ thuật bổ trợ và chất lượng CV", "max_points": 5, "scoring_rule": "Biết Python/OpenAI API có evidence: 5; CV có cấu trúc tốt nhưng không có kỹ thuật: 3; không có: 0"}
+  ],
+  "routing": [
+    {"min": 75, "max": 100, "result": "STRONG_REVIEW", "action": "HR ưu tiên xem để cân nhắc phỏng vấn"},
+    {"min": 60, "max": 74, "result": "REVIEW", "action": "HR xem xét thêm"},
+    {"min": 0, "max": 59, "result": "LOW_PRIORITY_REVIEW", "action": "HR xem thủ công; workflow không tự loại"}
+  ],
+  "override": "Nếu thiếu dữ liệu quan trọng hoặc evidence yếu, đặt NEEDS_REVIEW bất kể tổng điểm."
+}

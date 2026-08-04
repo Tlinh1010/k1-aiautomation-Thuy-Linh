@@ -1,0 +1,79 @@
+{
+  "source_candidate_id": "RDAI-A-001",
+  "criteria": [
+    {
+      "id": "ai_tool_experience",
+      "name": "Kinh nghiệm sử dụng/nghiên cứu công cụ AI",
+      "score": 20,
+      "max_points": 20,
+      "evidence": "months_ai_experience = 10 tháng (Master thesis Feb–Jul 2023, research internship Feb–May 2023, AI internship COMIT Oct–Dec 2023, NLP research Jan–Mar 2024).",
+      "scoring_note": ">=6 tháng liên tục nên đạt tối đa 20 điểm."
+    },
+    {
+      "id": "prompt_engineering",
+      "name": "Kỹ năng xây dựng và tối ưu prompt",
+      "score": 0,
+      "max_points": 15,
+      "evidence": "prompt_engineering_evidence rỗng trong candidate-profile.json; CV không có mô tả cụ thể về xây dựng/tối ưu hệ thống prompt.",
+      "scoring_note": "Không có evidence nên 0 điểm theo rubric."
+    },
+    {
+      "id": "testing_validation",
+      "name": "Kiểm thử, đo lường, tối ưu giải pháp AI",
+      "score": 8,
+      "max_points": 15,
+      "evidence": "\"Conducted thorough evaluations and benchmarking tests... across diverse PDF datasets\"; \"optimize speed, accuracy, and other performance variables\" (COMIT).",
+      "scoring_note": "Có đề cập kiểm thử/benchmark nhưng CV không nêu số liệu cụ thể (%, thời gian...) nên 8/15 điểm."
+    },
+    {
+      "id": "curiosity_self_learning",
+      "name": "Tò mò, chủ động khám phá công nghệ mới",
+      "score": 15,
+      "max_points": 15,
+      "evidence": "self_learning_evidence có 3 mục: dự án PDF2WORD, tự học NLP (BERT/ELECTRA), DataCamp Data Engineering.",
+      "scoring_note": ">=2 evidence độc lập nên đạt tối đa 15 điểm."
+    },
+    {
+      "id": "communication_knowledge_sharing",
+      "name": "Giao tiếp và chia sẻ kiến thức",
+      "score": 8,
+      "max_points": 15,
+      "evidence": "\"Collaborated with a professor in the lab, actively contributing to the research and writing of papers\"; \"fostering teamwork and communication skills\".",
+      "scoring_note": "Có evidence hợp tác/viết bài nghiên cứu nhưng không có evidence đào tạo/thuyết trình cho người không chuyên như JD yêu cầu, nên 8/15 điểm."
+    },
+    {
+      "id": "structured_thinking",
+      "name": "Tư duy hệ thống hoá, tổ chức thông tin",
+      "score": 10,
+      "max_points": 10,
+      "evidence": "\"Conducted in-depth research on papers and algorithms... aiming to find optimal solutions\"; quy trình nghiên cứu lặp lại có cấu trúc (research → implement → evaluate) ở cả 3 dự án chính.",
+      "scoring_note": "Evidence rõ ràng về quy trình nghiên cứu có cấu trúc, đạt tối đa 10 điểm."
+    },
+    {
+      "id": "english_reading",
+      "name": "Đọc hiểu tài liệu tiếng Anh",
+      "score": 5,
+      "max_points": 5,
+      "evidence": "Chương trình Master tại Universita di Messina và khóa CS231n bằng tiếng Anh; nghiên cứu papers ML/NLP bằng tiếng Anh.",
+      "scoring_note": "Evidence rõ ràng và mạnh, đạt tối đa 5 điểm."
+    },
+    {
+      "id": "tools_and_cv_quality",
+      "name": "Công cụ kỹ thuật bổ trợ và chất lượng CV",
+      "score": 5,
+      "max_points": 5,
+      "evidence": "technical_tools bao gồm Python; CV trình bày rõ ràng, có cấu trúc theo từng mốc thời gian.",
+      "scoring_note": "Có evidence biết Python, đạt tối đa 5 điểm."
+    }
+  ],
+  "total_score": 71,
+  "result": "REVIEW",
+  "human_review_required": true,
+  "scoring_summary": "Ứng viên có nền tảng nghiên cứu AI/ML vững (10 tháng qua thực tập và luận văn), tư duy hệ thống hoá và tiếng Anh tốt, chủ động tự học công nghệ mới. Điểm yếu rõ nhất là không có evidence về prompt engineering (kỹ năng lõi của JD) và evidence chia sẻ/đào tạo kiến thức cho người không chuyên còn mờ nhạt. Tổng 71/100, thuộc nhóm REVIEW — HR nên phỏng vấn để xác minh thêm.",
+  "interview_questions": [
+    "Bạn đã từng dùng ChatGPT/Claude hoặc công cụ AI tương tự để xây dựng và tối ưu một hệ thống prompt cho một tác vụ cụ thể chưa? Mô tả prompt đó và kết quả.",
+    "Trong dự án PDF2WORD hoặc thực tập tại COMIT, bạn đo lường hiệu quả (độ chính xác, tốc độ) bằng số liệu cụ thể như thế nào?",
+    "Bạn đã từng trình bày hoặc hướng dẫn một chủ đề kỹ thuật AI cho người không chuyên chưa? Cho một ví dụ cụ thể.",
+    "Bạn có thể sắp xếp làm việc full-time tại văn phòng không?"
+  ]
+}

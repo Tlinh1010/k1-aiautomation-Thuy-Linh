@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "candidate-profile.schema.json",
+  "title": "HR Screening Candidate Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidate_id", "candidate_name", "full_time", "months_ai_experience", "ai_tools_used", "prompt_engineering_evidence", "testing_validation_evidence", "self_learning_evidence", "communication_evidence", "structured_thinking_evidence", "english_reading_evidence", "technical_tools", "evidence_summary", "evidence"],
+  "properties": {
+    "candidate_id": {"type": "string", "minLength": 1},
+    "candidate_name": {"type": "string"},
+    "full_time": {"type": ["boolean", "null"]},
+    "months_ai_experience": {"type": "integer", "minimum": 0},
+    "ai_tools_used": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "prompt_engineering_evidence": {"type": "string"},
+    "testing_validation_evidence": {"type": "string"},
+    "self_learning_evidence": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "communication_evidence": {"type": "string"},
+    "structured_thinking_evidence": {"type": "string"},
+    "english_reading_evidence": {"type": "string"},
+    "technical_tools": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "evidence_summary": {"type": "string"},
+    "evidence": {"type": "object", "additionalProperties": {"type": "string"}}
+  }
+}

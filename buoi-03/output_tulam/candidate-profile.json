@@ -1,0 +1,28 @@
+{
+  "candidate_id": "RDAI-A-001",
+  "candidate_name": "Ứng viên A",
+  "full_time": null,
+  "months_ai_experience": 10,
+  "ai_tools_used": ["Docker", "TensorRT", "ONNX", "OpenCV", "PaddleOCR", "Pdfminer", "BERT", "ELECTRA", "Hugging Face"],
+  "prompt_engineering_evidence": "",
+  "testing_validation_evidence": "Conducted thorough evaluations and benchmarking tests to assess the performance of the developed solution (PDF2WORD) across diverse PDF datasets and document formats; implemented real-time staging models optimizing speed, accuracy and other performance variables (COMIT); analyzed advantages/disadvantages of the FF algorithm across multiple datasets (Messina research).",
+  "self_learning_evidence": [
+    "PDF2WORD (Mar 2024–Present): tự nghiên cứu OCR/PDF parsing bằng PaddlePaddle OCR và Pdfminer.",
+    "Research and practices NLP model (Jan 2024–Mar 2024): tự học BERT/ELECTRA qua Hugging Face.",
+    "Self learning on Data Engineering field — DataCamp (Sep 2022–Jan 2023)."
+  ],
+  "communication_evidence": "Collaborated with a professor in the lab, actively contributing to the research and writing of papers on machine learning algorithms; collaborated with peers and faculty to address industry-relevant problems, fostering teamwork and communication skills.",
+  "structured_thinking_evidence": "Conducted in-depth research on papers and algorithms related to object detection and computer vision, aiming to find optimal solutions for camera-based timekeeping challenges (COMIT internship).",
+  "english_reading_evidence": "Toàn bộ CV, chương trình học tại Universita di Messina và khóa CS231n hoàn thành bằng tiếng Anh; nghiên cứu papers thuật toán ML/NLP bằng tiếng Anh.",
+  "technical_tools": ["Python", "JavaScript", "React Native", "Docker", "TensorRT", "ONNX", "OpenCV"],
+  "evidence_summary": "- Có nền tảng nghiên cứu AI/ML rõ ràng qua 2 kỳ thực tập và luận văn thạc sĩ (~10 tháng, Feb 2023–Mar 2024).\n- Có evidence kiểm thử/đo lường và tự học công nghệ mới (PDF2WORD, NLP self-study) nhưng không có evidence trực tiếp về prompt engineering với ChatGPT/Claude.\n- Giao tiếp và hợp tác nghiên cứu có evidence rõ qua làm việc với giáo sư và đồng nghiệp.\n- Đọc hiểu tiếng Anh có evidence mạnh qua học tập/nghiên cứu quốc tế.",
+  "evidence": {
+    "months_ai_experience": "Master's thesis Feb–Jul 2023 (CycleGAN); on-campus ML research internship Feb–May 2023 (cùng khoảng, không cộng dồn); AI internship COMIT Oct–Dec 2023; NLP research Jan–Mar 2024. Không tính dự án PDF2WORD (Mar 2024–Present) vào số tháng vì không có mốc kết thúc trong CV.",
+    "ai_tools_used": "\"utilizing frameworks and technologies such as Docker, TensorRT, ONNX\"; \"techniques from PaddlePaddle OCR and Pdfminer\"; \"application of pre-trained models like BERT and ELECTRA\"",
+    "testing_validation_evidence": "\"Conducted thorough evaluations and benchmarking tests to assess the performance of the developed solution across diverse PDF datasets and document formats\"",
+    "self_learning_evidence": "\"Spearheaded a project focused on developing an innovative solution for converting PDF files to text format\"; \"Engaged in self-directed learning on data engineering at DataCamp\"",
+    "communication_evidence": "\"Collaborated with a professor in the lab, actively contributing to the research and writing of papers\"",
+    "structured_thinking_evidence": "\"Conducted in-depth research on papers and algorithms related to object detection and computer vision, aiming to find optimal solutions\"",
+    "english_reading_evidence": "\"Completed the full CS231n course\"; chương trình Master tại Messina giảng dạy bằng tiếng Anh"
+  }
+}

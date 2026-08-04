@@ -1,0 +1,8 @@
+{
+  "source_candidate_id": "RDAI-A-001",
+  "completeness_score": 80,
+  "missing_fields": ["full_time"],
+  "warnings": [],
+  "ready_for_scoring": true,
+  "review_note": "full_time không được nêu rõ trong CV (ứng viên không ghi rõ mong muốn làm full-time hay part-time); các trường bắt buộc còn lại đầy đủ và có evidence."
+}
